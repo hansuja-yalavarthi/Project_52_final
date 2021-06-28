@@ -1,0 +1,143 @@
+.logo h1 {
+    color: rgb(134, 235, 67);
+    font-family: 'Aladin', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    animation: move 8s infinite;
+    animation-direction: alternate;
+    text-shadow: -1px 9px 0px rgba(134, 235, 67, 0.2);
+}
+
+@keyframes move {
+    from {
+        padding-left: 100px;
+    }
+
+    to {
+        padding-left: 750px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #29720c;
+    flex-flow: column;
+}
+
+a:link {
+    color: #29720c;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(59, 167, 131);
+    text-decoration: none
+}
+
+.intro {
+    background-color: mistyrose;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+h1 {
+    background-color: rgb(221, 240, 226);
+    color: rgb(59, 167, 131);
+    font-family: cursive;
+}
+
+.menu {
+    background-color: rgb(221, 240, 226);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    color: black;
+}
+
+body {
+    font-family: cursive;
+    background-color: rgb(234, 134, 243);
+    font-size: medium;
+    margin: 0px;
+}
+
+.grid {
+    border: 2px solid #000000;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.origami {
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 500px;
+    padding: 50px;
+    background-color: mistyrose;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-left: 20px;
+    border-radius: 50% 50% 48% 52% / 57% 54% 100% 100%;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.19),
+        rgba(0, 0, 0, 0.23);
+}
+
+.animg {
+    margin-left: 50px;
+}
+
+.origami:hover {
+    opacity: 0.5;
+}
+
+.title {
+    position: relative;
+}
+
+.title:hover {
+    opacity: 1;
+}
+
+.title:hover p {
+    opacity: 1;
+}
+
+.title:hover img {
+    opacity: 1;
+}
+
+.title p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border: solid;
+}
+
+p,
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #2abb8b;
+    border-style: groove;
+    border-color: #b39329;
+    box-shadow: #363b39;
+}
